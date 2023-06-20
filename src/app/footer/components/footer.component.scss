@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 120px;
+}
+
+.black-font {
+  font-family: "Roboto";
+  letter-spacing: -1px;
+  font-size: 17px;
+}
+
+.footer-items {
+  font-family: "Roboto";
+  color: #737373;
+}
+
+.disclaimer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Roboto";
+  letter-spacing: -1px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  text-align: center;
+}

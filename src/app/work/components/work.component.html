@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="form-container">
+    <h2 class="title">Work with us</h2>
+    <p class="subtitle">
+      BT Automation looks forward to hearing from you and helping you improve
+      your business through ServiceNow.
+    </p>
+
+    <form
+      [formGroup]="form"
+      (ngSubmit)="submit()"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      "
+    >
+      <div style="display: flex; gap: 20px">
+        <input
+          type="text"
+          class="input-form"
+          formControlName="name"
+          placeholder="Name"
+        />
+
+        <input
+          type="text"
+          class="input-form"
+          formControlName="email"
+          placeholder="Email"
+        />
+      </div>
+
+      <input
+        style="width: 94%"
+        type="text"
+        class="input-form"
+        formControlName="subject"
+        placeholder="Subject"
+      />
+
+      <textarea
+        style="width: 94%"
+        rows="8"
+        type="text"
+        class="input-form"
+        formControlName="message"
+        placeholder="Message"
+      ></textarea>
+
+      <button type="submit" class="send-btn">Send message</button>
+    </form>
+  </div>
+</div>

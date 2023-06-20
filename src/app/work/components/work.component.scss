@@ -1,0 +1,59 @@
+.container {
+  background-color: #0d6461;
+
+  &:hover {
+    background-color: #ef6946;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 120px;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  border-style: none;
+}
+
+.input-form {
+  font-family: "Roboto";
+  color: #495057;
+  line-height: 1.5;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.send-btn {
+  background-color: #0d6461;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  word-spacing: 2px;
+  padding: 11px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
